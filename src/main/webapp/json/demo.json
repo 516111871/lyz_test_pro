@@ -1,0 +1,397 @@
+{
+  "page": {
+    "title": "店铺首页",
+    "hasMargin": "1",
+    "backgroundColor": "#f8f8f8"
+  },
+  "PModules": [
+    {
+      "id": 2,
+      "type": "Header_style1",
+      "draggable": false,
+      "sort": 0,
+      "content": {
+        "bg": "\/PublicMob\/images\/indexbg\/004.png",
+        "photo": "\/PublicMob\/images\/header7.png",
+        "datasets": [
+          {
+            "linkType": 11,
+            "link": "\/Item\/lists",
+            "showtitle": "全部商品",
+            "titleColor": "#404040",
+            "pic": "\/Public\/images\/diy\/waitupload.png",
+            "logo": "",
+            "num": "300",
+            "active": "active",
+            "initialize": "1"
+          },
+          {
+            "linkType": 11,
+            "link": "\/Item\/lists\/new\/1",
+            "showtitle": "上新商品",
+            "titleColor": "#404040",
+            "pic": "\/Public\/images\/diy\/waitupload.png",
+            "logo": "",
+            "num": "30",
+            "active": "",
+            "initialize": "1"
+          },
+          {
+            "linkType": 11,
+            "link": "\/Order\/lists",
+            "showtitle": "我的订单",
+            "titleColor": "#404040",
+            "pic": "\/Public\/images\/diy\/waitupload.png",
+            "logo": "\/PublicMob\/images\/index1.png",
+            "active": "",
+            "num": "",
+            "initialize": "1"
+          },
+          {
+            "linkType": 11,
+            "link": "\/Activity\/checkin",
+            "showtitle": "会员签到",
+            "titleColor": "#404040",
+            "pic": "\/Public\/images\/diy\/waitupload.png",
+            "logo": "\/PublicMob\/images\/index2.png",
+            "active": "",
+            "num": "",
+            "initialize": "1"
+          }
+        ],
+        "modulePadding": 5
+      },
+      "dom_conitem": null,
+      "dom_ctrl": null,
+      "ue": null
+    }
+  ],
+  "LModules": [
+    {
+      "id": 9,
+      "type": 8,
+      "draggable": true,
+      "sort": 0,
+      "content": {
+        "modulePadding": 5,
+        "dataset": [
+          {
+            "link": "\/Shop\/index",
+            "linkType": 6,
+            "showtitle": "连衣裙",
+            "pic": "\/PublicMob\/images\/mob\/01_1_nav.png"
+          },
+          {
+            "link": "\/Shop\/index",
+            "linkType": 6,
+            "showtitle": "T恤\/衬衫",
+            "pic": "\/PublicMob\/images\/mob\/01_2_nav.png"
+          },
+          {
+            "link": "\/Shop\/index",
+            "linkType": 6,
+            "showtitle": "针织衫",
+            "pic": "\/PublicMob\/images\/mob\/01_3_nav.png"
+          },
+          {
+            "link": "\/Shop\/index",
+            "linkType": 6,
+            "showtitle": "外套",
+            "pic": "\/PublicMob\/images\/mob\/01_4_nav.png"
+          },
+          {
+            "link": "\/Shop\/index",
+            "linkType": 6,
+            "showtitle": "半身裙",
+            "pic": "\/PublicMob\/images\/mob\/01_5_nav.png"
+          }
+        ]
+      },
+      "dom_conitem": null,
+      "dom_ctrl": null,
+      "ue": null
+    },
+    {
+      "id": 8,
+      "type": 6,
+      "draggable": true,
+      "sort": 1,
+      "content": {
+        "layout": 1,
+        "showPrice": true,
+        "showIco": true,
+        "showName": true,
+        "goodslist": [],
+        "modulePadding": 5
+      },
+      "dom_conitem": null,
+      "dom_ctrl": null,
+      "ue": null
+    },
+    {
+      "id": 10,
+      "type": 2,
+      "draggable": true,
+      "sort": 2,
+      "content": {
+        "title": "夏日特辑推荐",
+        "style": 7,
+        "direction": "left",
+        "BackgroundColor": "#ff556f",
+        "titleColor": "#1a1a1a",
+        "modulePadding": 5
+      },
+      "dom_conitem": null,
+      "dom_ctrl": null,
+      "ue": null
+    },
+    {
+      "id": 11,
+      "type": "Header_style1_activity",
+      "draggable": true,
+      "sort": 3,
+      "content": {
+        "layout": 0,
+        "version": 2,
+        "dataset": [
+          {
+            "linkType": 0,
+            "link": "#",
+            "showTitle": 1,
+            "title": "7.22秋新品",
+            "pic": "\/PublicMob\/images\/mob\/01shopwindow01.png"
+          },
+          {
+            "linkType": 0,
+            "link": "#",
+            "showTitle": 1,
+            "title": "潮流趋势",
+            "pic": "\/PublicMob\/images\/mob\/01shopwindow02.png"
+          },
+          {
+            "linkType": 0,
+            "link": "#",
+            "showTitle": 1,
+            "title": "至臻品质",
+            "pic": "\/PublicMob\/images\/mob\/01shopwindow03.png"
+          }
+        ],
+        "modulePadding": 5
+      },
+      "dom_conitem": null,
+      "dom_ctrl": null,
+      "ue": null
+    },
+    {
+      "id": 12,
+      "type": 8,
+      "draggable": true,
+      "sort": 4,
+      "content": {
+        "layout": 1,
+        "modulePadding": 5,
+        "layout1_style": 1,
+        "dataset": [
+          {
+            "link": "\/Shop\/index",
+            "linkType": 6,
+            "titleBackgroundColor": "rgba(0,0,0,0.3)",
+            "titleColor": "#fff",
+            "showtitle": "露肩连衣裙",
+            "pic": "\/PublicMob\/images\/mob\/01shopwindow04.png"
+          },
+          {
+            "link": "\/Shop\/index",
+            "linkType": 6,
+            "titleBackgroundColor": "rgba(0,0,0,0.3)",
+            "titleColor": "#fff",
+            "showtitle": "T恤连衣裙",
+            "pic": "\/PublicMob\/images\/mob\/01shopwindow05.png"
+          },
+          {
+            "link": "\/Shop\/index",
+            "linkType": 6,
+            "titleBackgroundColor": "rgba(0,0,0,0.3)",
+            "titleColor": "#fff",
+            "showtitle": "吊带连衣裙",
+            "pic": "\/PublicMob\/images\/mob\/01shopwindow06.png"
+          },
+          {
+            "link": "\/Shop\/index",
+            "linkType": 6,
+            "titleBackgroundColor": "rgba(0,0,0,0.3)",
+            "titleColor": "#fff",
+            "showtitle": "中长款防晒衣",
+            "pic": "\/PublicMob\/images\/mob\/01shopwindow07.png"
+          }
+        ]
+      },
+      "dom_conitem": null,
+      "dom_ctrl": null,
+      "ue": null
+    },
+    {
+      "id": 13,
+      "type": 4,
+      "draggable": true,
+      "sort": 5,
+      "content": {
+        "layout": 2,
+        "showPrice": true,
+        "showIco": true,
+        "showName": 1,
+        "goodslist": [
+          {
+            "item_id": "1",
+            "link": "#",
+            "pic": "\/PublicMob\/images\/mob\/01_discount_1.png",
+            "price": "280",
+            "original_price": "680",
+            "title": "网纱蕾丝拼接时尚女款气质连衣裙"
+          },
+          {
+            "item_id": "2",
+            "link": "#",
+            "pic": "\/PublicMob\/images\/mob\/01_discount_2.png",
+            "price": "126",
+            "original_price": "429",
+            "title": "气质时尚女款一字肩雪纺连衣裙"
+          }
+        ],
+        "sale_num": 5,
+        "goodstyle": 10,
+        "layoutstyles": 5,
+        "goodstxt": "立即购买",
+        "titleLine": 0,
+        "version": 1,
+        "modulePadding": 5,
+        "priceBold": 0
+      },
+      "dom_conitem": null,
+      "dom_ctrl": null,
+      "ue": null
+    },
+    {
+      "id": 14,
+      "type": 2,
+      "draggable": true,
+      "sort": 6,
+      "content": {
+        "title": "夏日新品推荐",
+        "style": 7,
+        "direction": "left",
+        "BackgroundColor": "#ff556f",
+        "titleColor": "#1a1a1a",
+        "modulePadding": 5
+      },
+      "dom_conitem": null,
+      "dom_ctrl": null,
+      "ue": null
+    },
+    {
+      "id": 15,
+      "type": 4,
+      "draggable": true,
+      "sort": 7,
+      "content": {
+        "layout": 1,
+        "showPrice": true,
+        "showIco": true,
+        "showName": 1,
+        "goodslist": [
+          {
+            "item_id": "1",
+            "link": "#",
+            "pic": "\/PublicMob\/images\/mob\/01goods10.png",
+            "price": "456",
+            "original_price": "188",
+            "title": "简约绣花翻领衬衫"
+          },
+          {
+            "item_id": "2",
+            "link": "#",
+            "pic": "\/PublicMob\/images\/mob\/01goods9.png",
+            "price": "100",
+            "original_price": "188",
+            "title": "休闲个性撞色字母女T恤"
+          },
+          {
+            "item_id": "3",
+            "link": "#",
+            "pic": "\/PublicMob\/images\/mob\/01goods8.png",
+            "price": "480",
+            "original_price": "188",
+            "title": "撞色花边时尚女连衣裙"
+          },
+          {
+            "item_id": "4",
+            "link": "#",
+            "pic": "\/PublicMob\/images\/mob\/01goods7.png",
+            "price": "362",
+            "original_price": "188",
+            "title": "荷叶边一字肩连衣裙"
+          },
+          {
+            "item_id": "5",
+            "link": "#",
+            "pic": "\/PublicMob\/images\/mob\/01goods6.png",
+            "price": "280",
+            "original_price": "188",
+            "title": "时尚轻薄须面吊带连衣裙"
+          },
+          {
+            "item_id": "6",
+            "link": "#",
+            "pic": "\/PublicMob\/images\/mob\/01goods5.png",
+            "price": "162",
+            "original_price": "188",
+            "title": "灯笼袖吊带格子夏装上衣"
+          },
+          {
+            "item_id": "7",
+            "link": "#",
+            "pic": "\/PublicMob\/images\/mob\/01goods4.png",
+            "price": "280",
+            "original_price": "188",
+            "title": "时尚清新不对称侧翻衬衫"
+          },
+          {
+            "item_id": "8",
+            "link": "#",
+            "pic": "\/PublicMob\/images\/mob\/01goods3.png",
+            "price": "162",
+            "original_price": "188",
+            "title": "荷叶边女款雪纺两件套套装"
+          },
+          {
+            "item_id": "9",
+            "link": "#",
+            "pic": "\/PublicMob\/images\/mob\/01goods2.png",
+            "price": "280",
+            "original_price": "188",
+            "title": "复古花边贴补口袋长袖衬衫"
+          },
+          {
+            "item_id": "10",
+            "link": "#",
+            "pic": "\/PublicMob\/images\/mob\/01goods1.png",
+            "price": "160",
+            "original_price": "188",
+            "title": "修身系带袖夏装女款连衣裙"
+          }
+        ],
+        "sale_num": 5,
+        "goodstyle": 10,
+        "layoutstyles": 1,
+        "goodstxt": "立即购买",
+        "titleLine": 0,
+        "version": 1,
+        "modulePadding": 5,
+        "priceBold": 0
+      },
+      "dom_conitem": null,
+      "dom_ctrl": null,
+      "ue": null
+    }
+  ]
+}
