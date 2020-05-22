@@ -2,6 +2,8 @@ package com.demo;
 
 
 import com.demo.Interfaces.IBrowseTimes;
+import com.demo.entity.Goods;
+import com.demo.entity.News;
 import com.demo.factory.BrowseFactory;
 
 import java.util.ArrayList;
@@ -14,13 +16,13 @@ public class Main {
     public static void main(String args[])  {
 
             String type = "goods";
-//        if(type.equals("goods")){
-//            News news = new News();
-//            news.addBrowse();
-//        }else if (type.equals("news")){
-//            Goods goods = new Goods();
-//            goods.addBrowse();
-//        }
+        if(type.equals("goods")){
+            News news = new News();
+            news.addBrowse();
+        }else if (type.equals("news")){
+            Goods goods = new Goods();
+            goods.addBrowse();
+        }
 
 
 
@@ -34,6 +36,21 @@ public class Main {
 
             }).start();
         }
+//        /**
+//         * check:签到
+//         * guanZhu:关注
+//         * share:分享
+//         */
+//        String checkType = "share";
+//        Integer integral = 100;
+//        AjaxResult res = Factory.getCheck(checkType).addIntegral(integral);
+//        if (res.isSuccess()){
+//            System.out.println(res.getMsg());
+//        }
+
+
+
+
 
 
 //        FilterChain chain = new FilterChain();

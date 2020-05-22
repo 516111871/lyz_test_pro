@@ -1,10 +1,22 @@
 package com.demo.enums;
 
+/**
+ * @author lyz
+ */
 public enum EBrowseTimes {
+    /**
+     * 商品
+     */
     goods("goods","com.demo.Interfaces.impl.goodsBrowse"),
+    /**
+     * 动态
+     */
     news("news","com.demo.Interfaces.impl.newsBrowse");
+
     private String type;
+
     private String path;
+
 
      EBrowseTimes(String type, String path) {
         this.type = type;
