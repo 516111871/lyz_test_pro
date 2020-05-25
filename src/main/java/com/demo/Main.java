@@ -36,11 +36,10 @@ public class Main {
 
             }).start();
         }
-//        /**
-//         * check:签到
-//         * guanZhu:关注
-//         * share:分享
-//         */
+
+
+
+
 //        String checkType = "share";
 //        Integer integral = 100;
 //        AjaxResult res = Factory.getCheck(checkType).addIntegral(integral);
