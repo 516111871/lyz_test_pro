@@ -39,7 +39,6 @@ public class Main {
 
 
 
-
 //        String checkType = "share";
 //        Integer integral = 100;
 //        AjaxResult res = Factory.getCheck(checkType).addIntegral(integral);
