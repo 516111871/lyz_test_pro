@@ -1,29 +1,40 @@
 package com.demo.reflection;
 
+import com.demo.reflection.annotation.AutoWired;
 import org.junit.jupiter.api.Test;
 
 import java.lang.reflect.Field;
-import java.lang.reflect.Method;
 
 /**
  * @author lyz
- * 测试反射获取属性 赋值
  */
 public class AutoWiredTest {
     @Test
-    public void test() throws Exception {
-        TestController controller = new TestController();
+   public void testAutoWired (){
+        /**
+         * 简易实现 直接new一个controller
+         * 正常应该配置controller包路径, 然后读取配置
+         * 根据包路径, 遍历所有controller 执行以下方法
+         */
+       TestController controller = new TestController();
         Class<? extends TestController> clazz = controller.getClass();
-        TestService t = new TestService();
-        System.out.println(t);
-        Field field = clazz.getDeclaredField("service");
-        field.setAccessible(true);
-        String fieldName = field.getName();
-        String upperName = fieldName.substring(0, 1).toUpperCase() + fieldName.substring(1, fieldName.length());
-        String methodName = "set" + upperName;
-        Method method = clazz.getDeclaredMethod(methodName, TestService.class);
-        method.setAccessible(true);
-        method.invoke(controller, t);
-        System.out.println(controller.getService());
-    }
+        Field[] fields = clazz.getDeclaredFields();
+        for (Field field : fields) {
+            field.setAccessible(true);
+            AutoWired annotation = field.getAnnotation(AutoWired.class);
+            if (null != annotation){
+                Class<?> type = field.getType();
+                try {
+                    Object service = type.newInstance();
+                    field.set(controller,service);
+                    System.out.println(controller.getService());
+                } catch (InstantiationException e) {
+                    e.printStackTrace();
+                } catch (IllegalAccessException e) {
+                    e.printStackTrace();
+                }
+            }
+
+        }
+   }
 }

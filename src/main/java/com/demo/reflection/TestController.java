@@ -7,9 +7,9 @@ import com.demo.reflection.annotation.AutoWired;
  * 实现AutoWired注解测试
  */
 public class TestController {
-    private void setService(TestService service) {
-        this.service = service;
-    }
+//    private void setService(TestService service) {
+//        this.service = service;
+//    }
 
     @AutoWired
     private TestService service;
