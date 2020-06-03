@@ -4,6 +4,7 @@ import com.demo.reflection.annotation.AutoWired;
 import org.junit.jupiter.api.Test;
 
 import java.lang.reflect.Field;
+import java.util.stream.Stream;
 
 /**
  * @author lyz
@@ -19,22 +20,37 @@ public class AutoWiredTest {
        TestController controller = new TestController();
         Class<? extends TestController> clazz = controller.getClass();
         Field[] fields = clazz.getDeclaredFields();
-        for (Field field : fields) {
-            field.setAccessible(true);
-            AutoWired annotation = field.getAnnotation(AutoWired.class);
-            if (null != annotation){
-                Class<?> type = field.getType();
-                try {
-                    Object service = type.newInstance();
-                    field.set(controller,service);
-                    System.out.println(controller.getService());
-                } catch (InstantiationException e) {
-                    e.printStackTrace();
-                } catch (IllegalAccessException e) {
-                    e.printStackTrace();
-                }
-            }
-
-        }
+        // lamda表达式写法
+        Stream.of(fields).filter(field -> field.getAnnotation(AutoWired.class) != null)
+                .forEach(field ->{
+                    field.setAccessible(true);
+                    Class<?> type = field.getType();
+                    try {
+                        Object service = type.newInstance();
+                        field.set(controller,service);
+                        System.out.println(controller.getService());
+                    } catch (InstantiationException e) {
+                        e.printStackTrace();
+                    } catch (IllegalAccessException e) {
+                        e.printStackTrace();
+                    }});
+        // 传统for循环
+//        for (Field field : fields) {
+//            field.setAccessible(true);
+//            AutoWired annotation = field.getAnnotation(AutoWired.class);
+//            if (null != annotation){
+//                Class<?> type = field.getType();
+//                try {
+//                    Object service = type.newInstance();
+//                    field.set(controller,service);
+//                    System.out.println(controller.getService());
+//                } catch (InstantiationException e) {
+//                    e.printStackTrace();
+//                } catch (IllegalAccessException e) {
+//                    e.printStackTrace();
+//                }
+//            }
+//
+//        }
    }
 }
