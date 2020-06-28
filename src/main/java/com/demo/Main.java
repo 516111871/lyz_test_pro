@@ -17,6 +17,7 @@ public class Main {
         HashMap<String,Object> map = new HashMap<>();
         map.put("status","1");
         System.err.println("1".equals(map.get("status")));
+        System.err.println("mydev up to git");
 //------------------------------------------------------------------------------------------------
         // optional
 
