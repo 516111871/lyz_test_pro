@@ -34,7 +34,7 @@ public class AutoWiredTest {
                     } catch (IllegalAccessException e) {
                         e.printStackTrace();
                     }});
-        // 传统for循环
+        // for循环
 //        for (Field field : fields) {
 //            field.setAccessible(true);
 //            AutoWired annotation = field.getAnnotation(AutoWired.class);

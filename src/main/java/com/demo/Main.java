@@ -2,89 +2,85 @@ package com.demo;
 
 
 import com.demo.Interfaces.IBrowseTimes;
-import com.demo.entity.Goods;
-import com.demo.entity.News;
+import com.demo.check.factory.Factory;
+import com.demo.common.untils.AjaxResult;
 import com.demo.factory.BrowseFactory;
 
 import java.util.ArrayList;
-import java.util.HashSet;
+import java.util.HashMap;
 import java.util.List;
-import java.util.Set;
+import java.util.Optional;
 
 public class Main {
 
     public static void main(String args[])  {
+        HashMap<String,Object> map = new HashMap<>();
+        map.put("status","1");
+        System.err.println("1".equals(map.get("status")));
+//------------------------------------------------------------------------------------------------
+        // optional
 
-            String type = "goods";
-        if(type.equals("goods")){
-            News news = new News();
-            news.addBrowse();
-        }else if (type.equals("news")){
-            Goods goods = new Goods();
-            goods.addBrowse();
-        }
-
-
-
-        for (int i = 0; i<2; i++) {
-             new Thread(()->{
-                IBrowseTimes browse = BrowseFactory.getBrowseService(type);
-                for (int j = 0; j<100; j++){
-                    browse.addBrowse();
-                    browse.getBrowseTimes();
-                }
-
-            }).start();
-        }
-
-
-
-//        String checkType = "share";
-//        Integer integral = 100;
-//        AjaxResult res = Factory.getCheck(checkType).addIntegral(integral);
-//        if (res.isSuccess()){
-//            System.out.println(res.getMsg());
-//        }
-
-
-
-
-
-
-//        FilterChain chain = new FilterChain();
-//        chain.setMsg("<sdfsdf>");
-//        String msg = chain.msgProsess();
-//        System.err.println(msg);
-
-
-//        String text = "asdfgh";
+//        String abd = "";
+//        sdfsf(abd);
+//------------------------------------------------------------------------------------------------
+        //        String text = "asdfgh";
 //        System.out.println("A=========="+ StringUtils.startsWith(text,"A"));
 //        System.out.println("ad=========="+ StringUtils.startsWith(text,"a"));
 //        System.out.println("ad=========="+ StringUtils.startsWith(text," "));
-
-
-//        int[] a = {1,8,6,2,5,4,8,3,7};        //demo4
+//------------------------------------------------------------------------------------------------
+        String type = "goods";
+        addBrowse(type);
+//------------------------------------------------------------------------------------------------
+//        String checkType = "share";
+//        Integer integral = 100;
+//        addIntegral(checkType, integral);
+//        //demo4
+//        int[] a = {1,8,6,2,5,4,8,3,7};
 //        System.out.println( arrMax(a));
-
-
-
-//        T ren = new T();       demo1
+//------------------------------------------------------------------------------------------------
+//
+//        // demo1
+//        T ren = new T();
 //        test(ren);
-
-//        int len = lengthOfLongestSubstring("28a9asd13456723456789asd");   //demo2
-//        System.out.println(len);
-
-//        int[] a = {-1, 0, 1, 2, -1, -4};
-//        List<List<Integer>> list = demo3(a);
+//------------------------------------------------------------------------------------------------
+//
+//
+//        int[] b = {-1, 0, 1, 2, -1, -4};
+//        List<List<Integer>> list = Main.demo3(b);
 //        System.out.println(list);
-
+//------------------------------------------------------------------------------------------------
 //         String[] demo5 = new String[]{"flower","flow","flight"};
 //        String commonStr = longestCommonPrefix(demo5);
 //        System.out.println(commonStr);
 
     }
 
-    public static String longestCommonPrefix(String[] strs) {   // demo4
+    private static void sdfsf(String abd) {
+        System.err.println(Optional.of(abd).isPresent());
+    }
+
+
+    private static void test(T t) {
+        t.eat();
+        t.sleep();
+        t.work();
+
+    }
+
+    private static int arrMax(int[] a) {    // 双指针
+        int last=0,l=0,r=a.length-1;
+        while(l<r){
+            last =Math.max(last,Math.min(a[l],a[r])*(r-l));
+            if(a[l]>a[r]){
+                r--;
+            }else{
+                l++;
+            }
+        }
+        return last;
+    }
+
+    private static String longestCommonPrefix(String[] strs) {   // demo4
         if (strs.length == 0) return "";
         String prefix = strs[0];
         for (int i = 1; i < strs.length; i++)
@@ -95,12 +91,7 @@ public class Main {
         return prefix;
     }
 
-
-
-
-
-
-    public static List<List<Integer>> demo3(int[] arr){
+    private static List<List<Integer>> demo3(int[] arr){
         List<List<Integer>> list = new ArrayList<>();
         for(int i=0;i<arr.length-2;i++){
             List<Integer> myList = new ArrayList<>();
@@ -121,50 +112,41 @@ public class Main {
         return list;
     }
 
-    public static int arrMax(int[] a){      //demo4  双指针
-        int last=0,l=0,r=a.length-1;
-     while(l<r){
-         last =Math.max(last,Math.min(a[l],a[r])*(r-l));
-         if(a[l]>a[r]){
-             r--;
-         }else{
-             l++;
-         }
-     }
-     return last;
-    }
 
+    private static void addBrowse(String type) {
+//        if(type.equals("goods")){
+//            News news = new News();
+//            news.addBrowse();
+//        }else if (type.equals("news")){
+//            Goods goods = new Goods();
+//            goods.addBrowse();
+//        }
 
-    public static int addSum(int a, int b){
-        int sum = 0;
-        for(int i=a; i<b;i++){
-                sum +=i;
+        for (int i = 0; i<2; i++) {
+             new Thread(()->{
+                IBrowseTimes browse = BrowseFactory.getBrowseService(type);
+                for (int j = 0; j<100; j++){
+                    browse.addBrowse();
+                    browse.getBrowseTimes();
+                }
+
+            }).start();
         }
-        return sum;
     }
-    // 滑动窗口式 返回字符串中 最大不重复子字符串长度
-    public static int lengthOfLongestSubstring(String s) {          //demo2
-        int n = s.length();
-        Set<Character> set = new HashSet<>();
-        int ans = 0, i = 0, j = 0;
-        while (i < n && j < n) {
 
-            if (!set.contains(s.charAt(j))){
-                set.add(s.charAt(j++));
-                ans = Math.max(ans, j - i);
-            }
-            else {
-                set.remove(s.charAt(i++));
-            }
+    private static void addIntegral(String checkType, Integer integral) {
+
+        AjaxResult res = Factory.getCheck(checkType).addIntegral(integral);
+        if (res.isSuccess()) {
+            System.out.println(res.getMsg());
+//        }
         }
-        return ans;
+
     }
 
 
 
-    static <T extends People> void test(T t){    // demo1
-        t.eat();
-        t.sleep();
-        t.work();
-    }
+
+
+
 }
