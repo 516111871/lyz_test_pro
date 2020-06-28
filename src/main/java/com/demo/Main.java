@@ -7,17 +7,20 @@ import com.demo.common.untils.AjaxResult;
 import com.demo.factory.BrowseFactory;
 
 import java.util.ArrayList;
-import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 import java.util.Optional;
 
 public class Main {
 
     public static void main(String args[])  {
-        HashMap<String,Object> map = new HashMap<>();
-        map.put("status","1");
-        System.err.println("1".equals(map.get("status")));
-        System.err.println("mydev up to git");
+//        HashMap<String,Object> map = new HashMap<>();
+//        map.put("status","1");
+//        System.err.println("1".equals(map.get("status")));
+       System.out.println(System.getProperty("user.dir"));
+//       System.out.println(System.getProperties());
+        Map<String, String> map = System.getenv();
+        int [] a = new int[]{1,2,3,2,2,2};
 //------------------------------------------------------------------------------------------------
         // optional
 
@@ -29,8 +32,8 @@ public class Main {
 //        System.out.println("ad=========="+ StringUtils.startsWith(text,"a"));
 //        System.out.println("ad=========="+ StringUtils.startsWith(text," "));
 //------------------------------------------------------------------------------------------------
-        String type = "goods";
-        addBrowse(type);
+//        String type = "goods";
+//        addBrowse(type);
 //------------------------------------------------------------------------------------------------
 //        String checkType = "share";
 //        Integer integral = 100;
