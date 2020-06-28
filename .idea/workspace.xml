@@ -5,253 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="82f958d5-f0a1-4bb7-8b1c-3161c3400b3e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_druid_1_0_29.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_virtuald_curvesapi_1_04.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_jfinal_cos_2017_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_jfinal_jfinal_4_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_jfinal_jfinal_undertow_1_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_mail_javax_mail_1_5_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_10.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_lang_commons_lang_2_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_undertow_undertow_core_2_0_19_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_undertow_undertow_servlet_2_0_19_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_undertow_undertow_websockets_jsr_2_0_28_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_activation_activation_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_javaee_api_7_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_javax_servlet_api_4_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_websocket_javax_websocket_api_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_3_8_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_16.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_44.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_collections4_4_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_pool2_2_4_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_3_17.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_ooxml_3_17.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_ooxml_schemas_3_17.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_xmlbeans_xmlbeans_2_6_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_2_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_spec_javax_websocket_jboss_websocket_api_1_1_spec_1_1_4_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_xnio_xnio_api_3_3_8_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_xnio_xnio_nio_3_3_8_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_25.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_nop_1_7_25.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__redis_clients_jedis_2_9_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__stax_stax_api_1_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ds.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jfinal.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jfinal.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jfinal_demo_for_maven.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/jfinal_demo_for_maven.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/jfinal_demo_for_maven.log_2019-05-23.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/jfinal_demo_for_maven.log_2019-05-28.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/jfinal_demo_for_maven.log_2019-05-29.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/jfinal_demo_for_maven.log_2019-06-11.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/jfinal_demo_for_maven.log_2019-06-12.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/jfinal_demo_for_maven.log_2019-06-13.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/jfinal_demo_for_maven.log_2019-06-14.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/jfinal_demo_for_maven.log_2019-07-03.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/jfinal_demo_for_maven.log_2019-12-10.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/demo/Interfaces/IBrowseTimes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/demo/Interfaces/impl/goodsBrowse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/demo/Interfaces/impl/newsBrowse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/demo/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/demo/People.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/demo/T.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/demo/blog/BlogController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/demo/blog/BlogInterceptor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/demo/blog/BlogService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/demo/blog/BlogValidator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/demo/blog/test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/demo/common/DemoConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/demo/common/SqlIsource.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/demo/common/model/Blog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/demo/common/model/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/demo/common/model/_JFinalDemoGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/demo/common/model/_MappingKit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/demo/common/model/base/BaseBlog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/demo/common/model/base/BaseStudent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/demo/common/model/base/TestBlog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/demo/common/untils/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/demo/common/untils/GetHttpSessionConfigurator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/demo/common/untils/Publisher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/demo/common/untils/TestFx.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/demo/common/untils/WebSocketHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/demo/common/untils/WebSocketTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/demo/entity/Goods.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/demo/entity/News.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/demo/enums/EBrowseTimes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/demo/factory/BrowseFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/demo/index/IndexController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/demo/myFilter/FaceFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/demo/myFilter/FilterChain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/demo/myFilter/HtmlFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/demo/myFilter/Ifilters.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/demo/myFilter/MgWordsFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/demo/myFilter/MsgMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/demo/student/StudentController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/demo/student/StudentService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/main.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/demo-config-dev.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/demo.pfx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/logging.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/sql/blog.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/sql/student.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/tip.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/undertow.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/META-INF/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/css/manage.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/img/bg.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/img/left2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/img/right2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/jquery-1.4.4.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/json/demo.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/json/demo.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/blog/_form.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/blog/add.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/blog/blog.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/blog/edit.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/common/_layout.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/common/_paginate.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/index/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/student/_form.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/student/add.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/student/edit.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/student/student.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/start.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/demo/Interfaces/IBrowseTimes.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/demo/Interfaces/impl/goodsBrowse.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/demo/Interfaces/impl/newsBrowse.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/demo/Main.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/demo/People.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/demo/T.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/demo/blog/BlogController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/demo/blog/BlogInterceptor.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/demo/blog/BlogService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/demo/blog/BlogValidator.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/demo/blog/test.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/demo/common/DemoConfig.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/demo/common/SqlIsource.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/demo/common/model/Blog.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/demo/common/model/Student.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/demo/common/model/_JFinalDemoGenerator.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/demo/common/model/_MappingKit.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/demo/common/model/base/BaseBlog.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/demo/common/model/base/BaseStudent.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/demo/common/model/base/TestBlog.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/demo/common/untils/Application.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/demo/common/untils/GetHttpSessionConfigurator.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/demo/common/untils/Publisher.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/demo/common/untils/TestFx.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/demo/common/untils/WebSocketHandler.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/demo/common/untils/WebSocketTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/demo/entity/Goods.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/demo/entity/News.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/demo/enums/EBrowseTimes.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/demo/factory/BrowseFactory.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/demo/index/IndexController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/demo/myFilter/FaceFilter.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/demo/myFilter/FilterChain.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/demo/myFilter/HtmlFilter.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/demo/myFilter/Ifilters.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/demo/myFilter/MgWordsFilter.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/demo/myFilter/MsgMain.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/demo/student/StudentController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/demo/student/StudentService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/demo-config-dev.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/demo.pfx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/logging.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/sql/blog.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/sql/student.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/tip.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/undertow.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/jfinal_demo_for_maven-release.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/jfinal_demo_for_maven-release/jfinal_demo_for_maven/config/demo-config-dev.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/jfinal_demo_for_maven-release/jfinal_demo_for_maven/config/demo.pfx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/jfinal_demo_for_maven-release/jfinal_demo_for_maven/config/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/jfinal_demo_for_maven-release/jfinal_demo_for_maven/config/logging.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/jfinal_demo_for_maven-release/jfinal_demo_for_maven/config/sql/blog.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/jfinal_demo_for_maven-release/jfinal_demo_for_maven/config/sql/student.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/jfinal_demo_for_maven-release/jfinal_demo_for_maven/config/tip.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/jfinal_demo_for_maven-release/jfinal_demo_for_maven/config/undertow.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/jfinal_demo_for_maven-release/jfinal_demo_for_maven/jfinal.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/jfinal_demo_for_maven-release/jfinal_demo_for_maven/jfinal.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/jfinal_demo_for_maven-release/jfinal_demo_for_maven/lib/activation-1.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/jfinal_demo_for_maven-release/jfinal_demo_for_maven/lib/commons-codec-1.10.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/jfinal_demo_for_maven-release/jfinal_demo_for_maven/lib/commons-collections4-4.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/jfinal_demo_for_maven-release/jfinal_demo_for_maven/lib/commons-lang-2.6.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/jfinal_demo_for_maven-release/jfinal_demo_for_maven/lib/commons-pool2-2.4.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/jfinal_demo_for_maven-release/jfinal_demo_for_maven/lib/cos-2017.5.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/jfinal_demo_for_maven-release/jfinal_demo_for_maven/lib/curvesapi-1.04.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/jfinal_demo_for_maven-release/jfinal_demo_for_maven/lib/druid-1.0.29.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/jfinal_demo_for_maven-release/jfinal_demo_for_maven/lib/javaee-api-7.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/jfinal_demo_for_maven-release/jfinal_demo_for_maven/lib/javax.mail-1.5.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/jfinal_demo_for_maven-release/jfinal_demo_for_maven/lib/javax.servlet-api-4.0.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/jfinal_demo_for_maven-release/jfinal_demo_for_maven/lib/jboss-logging-3.3.2.Final.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/jfinal_demo_for_maven-release/jfinal_demo_for_maven/lib/jboss-websocket-api_1.1_spec-1.1.4.Final.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/jfinal_demo_for_maven-release/jfinal_demo_for_maven/lib/jedis-2.9.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/jfinal_demo_for_maven-release/jfinal_demo_for_maven/lib/jfinal-4.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/jfinal_demo_for_maven-release/jfinal_demo_for_maven/lib/jfinal-undertow-1.6.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/jfinal_demo_for_maven-release/jfinal_demo_for_maven/lib/jfinal_demo_for_maven-4.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/jfinal_demo_for_maven-release/jfinal_demo_for_maven/lib/log4j-1.2.16.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/jfinal_demo_for_maven-release/jfinal_demo_for_maven/lib/mysql-connector-java-5.1.44.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/jfinal_demo_for_maven-release/jfinal_demo_for_maven/lib/poi-3.17.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/jfinal_demo_for_maven-release/jfinal_demo_for_maven/lib/poi-ooxml-3.17.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/jfinal_demo_for_maven-release/jfinal_demo_for_maven/lib/poi-ooxml-schemas-3.17.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/jfinal_demo_for_maven-release/jfinal_demo_for_maven/lib/slf4j-api-1.7.25.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/jfinal_demo_for_maven-release/jfinal_demo_for_maven/lib/slf4j-nop-1.7.25.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/jfinal_demo_for_maven-release/jfinal_demo_for_maven/lib/stax-api-1.0.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/jfinal_demo_for_maven-release/jfinal_demo_for_maven/lib/undertow-core-2.0.19.Final.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/jfinal_demo_for_maven-release/jfinal_demo_for_maven/lib/undertow-servlet-2.0.19.Final.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/jfinal_demo_for_maven-release/jfinal_demo_for_maven/lib/undertow-websockets-jsr-2.0.28.Final.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/jfinal_demo_for_maven-release/jfinal_demo_for_maven/lib/xmlbeans-2.6.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/jfinal_demo_for_maven-release/jfinal_demo_for_maven/lib/xnio-api-3.3.8.Final.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/jfinal_demo_for_maven-release/jfinal_demo_for_maven/lib/xnio-nio-3.3.8.Final.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/jfinal_demo_for_maven-release/jfinal_demo_for_maven/start.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/jfinal_demo_for_maven-release/jfinal_demo_for_maven/webapp/META-INF/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/jfinal_demo_for_maven-release/jfinal_demo_for_maven/webapp/assets/css/manage.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/jfinal_demo_for_maven-release/jfinal_demo_for_maven/webapp/assets/img/bg.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/jfinal_demo_for_maven-release/jfinal_demo_for_maven/webapp/assets/img/left2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/jfinal_demo_for_maven-release/jfinal_demo_for_maven/webapp/assets/img/right2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/jfinal_demo_for_maven-release/jfinal_demo_for_maven/webapp/assets/js/jquery-1.4.4.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/jfinal_demo_for_maven-release/jfinal_demo_for_maven/webapp/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/jfinal_demo_for_maven-release/jfinal_demo_for_maven/webapp/json/demo.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/jfinal_demo_for_maven-release/jfinal_demo_for_maven/webapp/json/demo.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/jfinal_demo_for_maven-release/jfinal_demo_for_maven/webapp/page/blog/_form.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/jfinal_demo_for_maven-release/jfinal_demo_for_maven/webapp/page/blog/add.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/jfinal_demo_for_maven-release/jfinal_demo_for_maven/webapp/page/blog/blog.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/jfinal_demo_for_maven-release/jfinal_demo_for_maven/webapp/page/blog/edit.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/jfinal_demo_for_maven-release/jfinal_demo_for_maven/webapp/page/common/_layout.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/jfinal_demo_for_maven-release/jfinal_demo_for_maven/webapp/page/common/_paginate.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/jfinal_demo_for_maven-release/jfinal_demo_for_maven/webapp/page/index/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/jfinal_demo_for_maven-release/jfinal_demo_for_maven/webapp/page/student/_form.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/jfinal_demo_for_maven-release/jfinal_demo_for_maven/webapp/page/student/add.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/jfinal_demo_for_maven-release/jfinal_demo_for_maven/webapp/page/student/edit.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/jfinal_demo_for_maven-release/jfinal_demo_for_maven/webapp/page/student/student.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/jfinal_demo_for_maven.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/启动说明/___极速打包部署.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/启动说明/blog.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/启动说明/fatjar-打包部署方法/fatjar-打包部署方法.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/启动说明/fatjar-打包部署方法/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/启动说明/undertow-config-demo.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/启动说明/启动说明.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/demo/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/demo/Main.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -335,13 +89,53 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/demo/Main.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/demo/reflection/AutoWiredTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="551">
-              <caret line="32" column="17" lean-forward="true" selection-start-line="32" selection-start-column="17" selection-end-line="32" selection-end-column="17" />
+            <state relative-caret-position="475">
+              <caret line="25" column="18" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="18" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/demo/common/untils/AjaxResult.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="418">
+              <caret line="34" column="5" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
+              <folding>
+                <element signature="e#435#436#0" expanded="true" />
+                <element signature="e#465#466#0" expanded="true" />
+                <element signature="e#496#497#0" expanded="true" />
+                <element signature="e#523#524#0" expanded="true" />
+                <element signature="e#563#564#0" expanded="true" />
+                <element signature="e#595#596#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/demo/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="23" selection-start-line="23" selection-end-line="23" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#2530#2531#0" expanded="true" />
+                <element signature="e#2594#2595#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="389">
+              <caret line="1298" column="20" selection-start-line="1298" selection-start-column="20" selection-end-line="1298" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -349,43 +143,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/demo/Interfaces/IBrowseTimes.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="12" column="35" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/demo/Interfaces/impl/goodsBrowse.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="19" column="62" selection-start-line="19" selection-start-column="62" selection-end-line="19" selection-end-column="62" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/demo/Interfaces/impl/newsBrowse.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#361#362#0" expanded="true" />
-                <element signature="e#439#440#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/demo/enums/EBrowseTimes.java">
-          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="76">
-              <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+              <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/demo/reflection/TestService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="38">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -393,8 +161,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/demo/factory/BrowseFactory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+            <state relative-caret-position="133">
+              <caret line="7" column="28" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -403,10 +171,31 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/demo/entity/News.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/demo/enums/EBrowseTimes.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="4" selection-start-line="4" selection-end-line="4" />
+            <state relative-caret-position="475">
+              <caret line="25" column="53" selection-start-line="25" selection-start-column="53" selection-end-line="25" selection-end-column="53" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/demo/common/DemoConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="589">
+              <caret line="39" column="81" selection-start-line="39" selection-start-column="62" selection-end-line="39" selection-end-column="81" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/demo-config-dev.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="95">
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
             </state>
           </provider>
         </entry>
@@ -444,6 +233,7 @@
       <find>modifyHandshake</find>
       <find>c</find>
       <find>err</find>
+      <find>map</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -504,8 +294,8 @@
         <option value="$PROJECT_DIR$/src/main/java/com/demo/factory/BrowseFactory.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/demo/Interfaces/impl/newsBrowse.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/demo/Interfaces/impl/goodsBrowse.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/demo/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/demo/enums/EBrowseTimes.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/demo/Main.java" />
       </list>
     </option>
   </component>
@@ -551,6 +341,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -561,6 +352,11 @@
             <path>
               <item name="jfinal_demo_for_maven" type="b2602c69:ProjectViewProjectNode" />
               <item name="jfinal" type="462c0819:PsiDirectoryNode" />
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jfinal_demo_for_maven" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jfinal" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -591,16 +387,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="demo" type="462c0819:PsiDirectoryNode" />
-              <item name="entity" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jfinal_demo_for_maven" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jfinal" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
-              <item name="enums" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="jfinal_demo_for_maven" type="b2602c69:ProjectViewProjectNode" />
@@ -618,7 +405,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="demo" type="462c0819:PsiDirectoryNode" />
-              <item name="Interfaces" type="462c0819:PsiDirectoryNode" />
+              <item name="reflection" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="jfinal_demo_for_maven" type="b2602c69:ProjectViewProjectNode" />
@@ -627,8 +414,17 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="demo" type="462c0819:PsiDirectoryNode" />
-              <item name="Interfaces" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
+              <item name="reflection" type="462c0819:PsiDirectoryNode" />
+              <item name="annotation" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jfinal_demo_for_maven" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jfinal" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="sortArr" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="jfinal_demo_for_maven" type="b2602c69:ProjectViewProjectNode" />
@@ -639,13 +435,12 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1590052534178" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1593327130688" />
     <property name="last_opened_file_path" value="D:/杂七杂八/WebSocketHeartBeat" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -828,12 +623,12 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="210953000" />
+    <option name="totallyTimeSpent" value="211351000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="2576" height="1416" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17289348" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13275039" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -849,7 +644,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.33021078" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.2568306" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32761312" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" />
@@ -861,7 +656,7 @@
       <window_info anchor="right" id="Database" order="5" />
       <window_info anchor="right" id="Theme Preview" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Maven Projects" order="8" visible="true" weight="0.062400635" />
+      <window_info anchor="right" id="Maven Projects" order="8" visible="true" weight="0.15023847" />
       <window_info anchor="right" id="JSF" order="9" />
       <window_info anchor="right" id="CDI" order="10" />
       <window_info anchor="right" id="Bean Validation" order="11" />
@@ -1073,8 +868,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/demo/common/DemoConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="17" column="3" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="3" />
+        <state relative-caret-position="589">
+          <caret line="39" column="81" selection-start-line="39" selection-start-column="62" selection-end-line="39" selection-end-column="81" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1176,11 +971,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
           <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#361#362#0" expanded="true" />
-            <element signature="e#439#440#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1188,23 +978,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="304">
           <caret line="19" column="62" selection-start-line="19" selection-start-column="62" selection-end-line="19" selection-end-column="62" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/demo/Interfaces/IBrowseTimes.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="35" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
+        <state relative-caret-position="76">
+          <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/demo/factory/BrowseFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+        <state relative-caret-position="133">
+          <caret line="7" column="28" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1213,18 +1000,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/demo/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="551">
-          <caret line="32" column="17" lean-forward="true" selection-start-line="32" selection-start-column="17" selection-end-line="32" selection-end-column="17" />
+        <state relative-caret-position="323">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#2530#2531#0" expanded="true" />
+            <element signature="e#2594#2595#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/demo/enums/EBrowseTimes.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+        <state relative-caret-position="475">
+          <caret line="25" column="53" selection-start-line="25" selection-start-column="53" selection-end-line="25" selection-end-column="53" />
         </state>
       </provider>
     </entry>
